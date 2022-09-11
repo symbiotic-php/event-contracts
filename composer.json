@@ -1,7 +1,7 @@
 {
   "name": "symbiotic/event-contracts",
   "description": "Extend Interfaces for PSR 14 EventDispatcher",
-  "version": "1.0.1",
+  "version": "1.4.0",
   "type": "library",
   "license": [
     "MIT"
@@ -13,12 +13,12 @@
     "PSR-14 Event Dispatcher"
   ],
   "require": {
-    "php": ">=7.2.0",
+    "php": ">=8.0",
     "psr/event-dispatcher": "^1.0"
   },
   "autoload": {
     "psr-4": {
-      "\\Symbiotic\\Event\\": "src/Event/"
+      "Symbiotic\\Event\\": "src/Event/"
     }
   }
 }
